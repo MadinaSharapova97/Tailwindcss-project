@@ -3,6 +3,13 @@ module.exports = {
   content: ['./build/*.html','./build/js/*.js'],
   theme: {
     extend: {
+      colors:{
+        papayawhip:{
+          light:'#fef4e4',
+          default:"#ffefd5",
+          dark:'#fee5bc'
+        }
+      },
       screen: {
         'widescreen': { 'raw': '(min-aspect-ratio: 3/2' },
         'tallscreen': { 'raw': '(min-aspect-ratio: 13/20' },
